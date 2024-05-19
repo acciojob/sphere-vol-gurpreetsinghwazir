@@ -19,7 +19,7 @@ function display(event) {
     volume.value = calVolume.toFixed(4);
   }
 
-  console.log("Volume:", volume.value);
+  
 }
 
   
