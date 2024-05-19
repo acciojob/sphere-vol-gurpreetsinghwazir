@@ -8,9 +8,7 @@ calculate.addEventListener("click", display);
 function display(event) {
   event.preventDefault();
 
-  let radius = parseFloat(getRadius.value);
-
-  console.log("Radius:", radius);
+  let radius = parseFloat(getRadius.value); 
 
   if (radius <= 0) {
     volume.value = "NaN";
